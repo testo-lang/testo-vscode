@@ -6,9 +6,11 @@
     "engines": {
         "vscode": "^1.64.0"
     },
+    "publisher": "testo-lang",
     "categories": [
         "Programming Languages"
     ],
+    "repository": "https://github.com/testo-lang/testo-vscode",
     "contributes": {
         "languages": [{
             "id": "testo",
