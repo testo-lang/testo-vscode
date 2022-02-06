@@ -1,0 +1,25 @@
+{
+    "name": "testo-lang",
+    "displayName": "Testo Lang",
+    "description": "Official Testo Lang extension for VSCode",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "testo",
+            "aliases": ["Testo Lang", "testo"],
+            "extensions": [".testo"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "testo",
+            "scopeName": "source.testo",
+            "path": "./syntaxes/testo.tmLanguage.json"
+        }]
+    }
+}
