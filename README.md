@@ -1,3 +1,5 @@
-# Testo Lang
+# testo-vscode
 
-This is an official Testo Lang extension for VSCode. For now it only includes a syntax highlighting, but we are planning to add new features here soon.
+Syntax highlight for [Testo framework](https://github.com/log0div0/testo).
+
+![screenshot](https://github.com/testo-lang/testo-vscode/raw/main/screenshot.png)
